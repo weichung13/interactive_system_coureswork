@@ -1,0 +1,82 @@
+
+f - to finish running the program.
+a - to display on the screen information about all the activities.
+c - to display on the screen information about all the customers.
+t - to update the stored data when tickets are bought by one of the registered customers.
+r - to update the stored data when a registered customer cancels tickets for a booking.
+
+a
+[Bowling 8, Cycling 10, Football 22, Hiking 4, Sailing 3, Table Tennis 4]
+c
+[Ted Jones[], Anna Smith[], Michael Smith[]]
+t
+Please enter customer name:
+Mike James
+Not valid customer!!!
+t
+Please enter customer name:
+Ted Jones
+Please enter the activity you want to order:
+Basketball
+Not valid activity!!!
+t
+Please enter customer name:
+Ted Jones
+Please enter the activity you want to order:
+Hiking
+Please enter the quantity of tickets:
+2
+Order succeed!!!
+t
+Please enter customer name:
+Ted Jones
+Please enter the activity you want to order:
+Bowling
+Please enter the quantity of tickets:
+4
+Order succeed!!!
+t
+Please enter customer name:
+Ted Jones
+Please enter the activity you want to order:
+Football
+Please enter the quantity of tickets:
+6
+Order succeed!!!
+t
+Please enter customer name:
+Ted Jones
+You can't book any orders!!!
+r
+Please enter customer name:
+Jones Ted
+Not valid customer!!!
+r
+Please enter customer name:
+Ted Jones
+Please enter the activity you want to cancel:
+Table Tennis
+Not valid activity!!!
+r
+Please enter customer name:
+Ted Jones
+Please enter the activity you want to cancel:
+Football
+Please enter the quantity of tickets you want to cancel:
+2
+Cancel succeed!!!
+a
+[Bowling 4, Cycling 10, Football 18, Hiking 2, Sailing 3, Table Tennis 4]
+c
+[Ted Jones[{Hiking=2}, {Bowling=4}, {Football=4}], Anna Smith[], Michael Smith[]]
+r
+Please enter customer name:
+Ted Jones
+Please enter the activity you want to cancel:
+Hiking
+Please enter the quantity of tickets you want to cancel:
+3
+Fail!!!Please adjust the quantity
+f
+
+Process finished with exit code 0
